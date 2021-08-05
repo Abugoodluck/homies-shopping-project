@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-menu {
+    background-image: url("images/data-science.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    color: #fff;
+    padding: 2rem 5rem 0;
+    text-transform: capitalize;
+}
+.head-menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 3rem;
+}
+header {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.head-search-field {
+    width: 18rem;
+    padding: 0.4rem;
+    outline: none;
+    border-radius: 4rem;
+    background-color: cyan;
+    color: #000;
+    font-size: 18px;
+    border: none;
+}
+.search-bttn {
+    padding: 0.5rem 1.3rem;
+    border-radius: 2rem;
+    font-size: 18px;
+    background-color: #8a2be2;
+    color: #f1f1f1;
+    border: none;
+}
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+}
+.nav-links {
+    padding: 0 0.5rem;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.head-menu-text {
+    padding: 4rem 0;
+    background-color: #892be234;
+    display: inline-block;
+    color: cyan;
+}
+.head-text-pri-heading {
+    padding: 1rem 0;
+}
+.head-text-sec-heading {
+    padding-bottom: 1rem;
+}
+.head-text-tetiary-heading {
+    padding-bottom: 1rem;
+}
+.head-text-paragraph {
+    font-size: 20px;
+
+}
+.head-text-bttn {
+    background-color: #8a2be2;
+    color: #f1f1f1;
+    padding: 0.5rem 1rem;
+    margin-top: 2.3rem;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.sub-nav-container {
+    margin-top: 5rem;
+}
+.sub-nav {
+    background-color: blueviolet;
+    padding: 0.5rem 0;
+}
+.sub-nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.sub-nav-links {
+    padding: 1rem;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 18px;
+}
+.first-child {
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
