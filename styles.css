@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .head-menu {
-    background-image: url("images/data-science.jpg");
+    background-image: url("images/planet.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 90%;
@@ -15,6 +15,12 @@ body {
     padding: 2rem 5rem 0;
     text-transform: capitalize;
 }
+/* .bg-overlay {
+    background-color: gold;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+} */
 .head-menu-content {
     display: flex;
     justify-content: space-between;
@@ -26,6 +32,7 @@ header {
     font-weight: bold;
     font-family: fantasy;
     letter-spacing: 2px;
+    color: #ffd700 ;
 }
 .head-search-field {
     width: 18rem;
@@ -59,8 +66,8 @@ header {
 
 .head-menu-text {
     padding: 4rem 0;
-    background-color: #892be234;
-    display: inline-block;
+    /* background-color: #892be234;
+    display: inline-block; */
     color: cyan;
 }
 .head-text-pri-heading {
@@ -110,4 +117,15 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
+}
+.social-icons-group {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 14rem;
+    right: 1rem;
+}
+.icon {
+    width: 40px;
+    height: 40px;
 }
